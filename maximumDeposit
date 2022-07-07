@@ -1,0 +1,26 @@
+# Given a dictionary with an interest rate
+per_cent = {"TKB": 5.6, "CKB": 5.9, "VTB": 4.28, "SBER": 4.0}
+
+# Asking user to enter the amount of money to contribute
+money = int((input("Please enter your sum: ")))
+
+# Convert values of dictionary 'per_cent' to a list
+new_percent = list(per_cent.values())
+
+# Multiply every single value in a list 'new_percent' to given amount of money
+result = [i * money for i in new_percent]
+print(result)
+# Find the maximum value after multipling 
+deposit = max(result)
+
+# Printing maximum result (deposit)
+print(f"Максимальная сумма, которую Вы можете забрать = {deposit}")
+
+
+Доброго дня, уважаемый ментор (проверяющий)!
+Если у Вас будет время дать комментарий на моё выполненое задание, то прошу дать ответ на вопрос:
+Каким образом преобразовать числа float в списках в integer. 
+У меня так и не вышло и не получилось найти в источниках каким образом этого добиться.
+Дайте подсказку, потому что вижу, что задание выполнено не строго в соответствии с требованиями!
+
+С уважением, Екатерина Кузнецова QAP-85
